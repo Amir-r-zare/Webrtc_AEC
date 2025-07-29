@@ -186,8 +186,8 @@ ApplicationWindow {
             Text {
                 anchors.centerIn: parent
                 text: audioController.isConnected ?
-                          qsTr("🔊 CONNECTED - Audio Active") :
-                          qsTr("❌ DISCONNECTED")
+                          qsTr("CONNECTED - Audio Active") :
+                          qsTr("DISCONNECTED")
                 color: "white"
                 font.bold: true
                 font.pixelSize: 16
